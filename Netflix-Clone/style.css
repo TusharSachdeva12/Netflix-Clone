@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: black;
+}
+.main {
+    background-image: url("items/Images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 644px;
+    
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+.hero{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: calc(100% - 100px);
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    padding: 0 30px;
+    text-align: center;
+}
+.hero > :first-child{
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero >:nth-child(2){
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+}
+.hero >:nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.seperation{
+    height: 4px;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    opacity: 0.4;
+}
